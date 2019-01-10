@@ -4,7 +4,7 @@ describe "dna_to_rna" do
   it "empty string test" do
     expect(dna_to_rna("")).to eq "empty"
   end
-  it "G" do
+  it "G" do # change 2
     expect(dna_to_rna("G")).to eq "C"
   end
   it "Rna complement of cytosine is guanine " do
