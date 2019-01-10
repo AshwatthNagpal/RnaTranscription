@@ -4,7 +4,7 @@ def dna_to_rna(dna="")
     end
      rna=""
     dna.each_char do |i|
-     if(i=="G")
+     if i=="G"
        rna+="C"
      elsif i=="C"
        rna+="G"
@@ -18,4 +18,4 @@ def dna_to_rna(dna="")
     end
    rna
 end
-puts dna_to_rna("GGTTATCC")
+#puts dna_to_rna("GGTTATCC")
